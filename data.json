@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "version": "1.0",
+    "saved_at": "2026-10-10T13:35:02.885526",
+    "app": "CarRental"
+  },
+  "data": {
+    "categories": [
+      {
+        "type": "Category",
+        "id": "b7ba999f-e588-4441-83f3-3238dbb5c978",
+        "name": "Эконом",
+        "deposit": 5000.0,
+        "min_driver_age": 21,
+        "price_per_day": 1500.0,
+        "created_at": "2026-10-09T16:13:13.851155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      },
+      {
+        "type": "Category",
+        "id": "07932446-5b06-4521-acd7-cc0e5813a58f",
+        "name": "Комфорт",
+        "deposit": 10000.0,
+        "min_driver_age": 23,
+        "price_per_day": 2500.0,
+        "created_at": "2026-10-09T16:13:13.851155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      },
+      {
+        "type": "Category",
+        "id": "8a47d673-e6d6-454c-a30d-39820cdfd534",
+        "name": "Бизнес",
+        "deposit": 25000.0,
+        "min_driver_age": 25,
+        "price_per_day": 5000.0,
+        "created_at": "2026-10-09T16:13:13.851155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      }
+    ],
+    "customers": [
+      {
+        "type": "Customer",
+        "id": "34fed6ed-b06f-4c38-8ab6-6dd7627e6694",
+        "full_name": "Иванов Иван Иванович",
+        "passport": "1234567890",
+        "phone": "+79991234567",
+        "driver_license": "77АА123456",
+        "birth_date": "1990-05-15",
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      },
+      {
+        "type": "Customer",
+        "id": "c8b7963a-7d32-4fa2-95de-29e3cd573642",
+        "full_name": "Петров Петр Петрович",
+        "passport": "2345678901",
+        "phone": "+79992345678",
+        "driver_license": "77АА234567",
+        "birth_date": "1985-08-20",
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      },
+      {
+        "type": "Customer",
+        "id": "250c40b6-f10a-4192-ba45-7d94e82c0829",
+        "full_name": "Сидоров Сидор Сидорович",
+        "passport": "3456789012",
+        "phone": "+79993456789",
+        "driver_license": "77АА345678",
+        "birth_date": "1992-03-10",
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      }
+    ],
+    "cars": [
+      {
+        "type": "Car",
+        "id": "11c21fa9-dd8b-4168-8d7b-2632837041d9",
+        "vin": "XTAGFK1150Y654321",
+        "brand": "Lada",
+        "model": "Vesta",
+        "license_plate": "А123ВЕ777",
+        "category_id": "b7ba999f-e588-4441-83f3-3238dbb5c978",
+        "year": 2022,
+        "color": "белый",
+        "fuel_type": "petrol",
+        "mileage": 15000,
+        "price_per_day": 1500.0,
+        "status": "rented",
+        "created_at": "2026-10-09T16:13:13.851155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      },
+      {
+        "type": "Car",
+        "id": "105e44d3-666a-4395-98e9-588b643950b4",
+        "vin": "XTAGFK1150Y654322",
+        "brand": "Kia",
+        "model": "Rio",
+        "license_plate": "А124КМ777",
+        "category_id": "b7ba999f-e588-4441-83f3-3238dbb5c978",
+        "year": 2021,
+        "color": "белый",
+        "fuel_type": "petrol",
+        "mileage": 15000,
+        "price_per_day": 1800.0,
+        "status": "rented",
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      },
+      {
+        "type": "Car",
+        "id": "0f4f1646-3c1e-46d5-94cc-eb9b7bbcc2f8",
+        "vin": "XTAGFK1150Y654323",
+        "brand": "Hyundai",
+        "model": "Solaris",
+        "license_plate": "А125НО777",
+        "category_id": "b7ba999f-e588-4441-83f3-3238dbb5c978",
+        "year": 2023,
+        "color": "белый",
+        "fuel_type": "petrol",
+        "mileage": 15000,
+        "price_per_day": 1700.0,
+        "status": "rented",
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      },
+      {
+        "type": "Car",
+        "id": "3394be13-2481-4e9b-b9f3-4c7cf1f674cc",
+        "vin": "XTAGFK1150Y654324",
+        "brand": "Toyota",
+        "model": "Camry",
+        "license_plate": "А126РС777",
+        "category_id": "b7ba999f-e588-4441-83f3-3238dbb5c978",
+        "year": 2022,
+        "color": "белый",
+        "fuel_type": "petrol",
+        "mileage": 15000,
+        "price_per_day": 3500.0,
+        "status": "rented",
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      },
+      {
+        "type": "Car",
+        "id": "d3b1e93b-8835-4514-bc80-b30d43dc1091",
+        "vin": "XTAGFK1150Y654325",
+        "brand": "Bmw",
+        "model": "520i",
+        "license_plate": "А127ТУ777",
+        "category_id": "b7ba999f-e588-4441-83f3-3238dbb5c978",
+        "year": 2021,
+        "color": "белый",
+        "fuel_type": "petrol",
+        "mileage": 15000,
+        "price_per_day": 5500.0,
+        "status": "available",
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-10T13:34:47.451870"
+      }
+    ],
+    "employees": [
+      {
+        "type": "Employee",
+        "id": "2b779091-1ac6-4ce5-86e7-ab95feaf44bf",
+        "full_name": "Администратор Админ Админович",
+        "position": "manager",
+        "login": "admin",
+        "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+        "hire_date": "2020-01-01",
+        "phone": "+74951234567",
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-09T16:13:13.852155"
+      }
+    ],
+    "locations": [
+      {
+        "type": "Location",
+        "id": "ff9d0bef-a608-40ad-a97e-18eba0631111",
+        "address": "Г. Москва, Ул. Ленина 10",
+        "phone": "+74951234567",
+        "work_hours": "09:00-21:00",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "created_at": "2026-10-09T16:13:13.852155",
+        "updated_at": "2026-10-10T13:34:47.452875"
+      }
+    ],
+    "insurances": [],
+    "payments": [],
+    "rentals": [
+      {
+        "type": "Rental",
+        "id": "062ba28a-487e-4863-99f6-6484af4cc848",
+        "customer_id": "34fed6ed-b06f-4c38-8ab6-6dd7627e6694",
+        "customer_name": "Иванов Иван Иванович",
+        "car_id": "11c21fa9-dd8b-4168-8d7b-2632837041d9",
+        "car_info": "Lada Vesta [А123ВЕ777]",
+        "employee_id": "2b779091-1ac6-4ce5-86e7-ab95feaf44bf",
+        "employee_login": "admin",
+        "start_date": "2026-10-09T16:13:16.429847",
+        "end_date": "2026-10-12T16:13:16.429847",
+        "days": 3,
+        "total_cost": 4500.0,
+        "status": "active",
+        "actual_return": null,
+        "created_at": "2026-10-09T16:13:16.429847",
+        "updated_at": "2026-10-10T13:34:47.452875"
+      },
+      {
+        "type": "Rental",
+        "id": "58120833-b802-4a44-9f12-16db2105147f",
+        "customer_id": "c8b7963a-7d32-4fa2-95de-29e3cd573642",
+        "customer_name": "Петров Петр Петрович",
+        "car_id": "105e44d3-666a-4395-98e9-588b643950b4",
+        "car_info": "Kia Rio [А124КМ777]",
+        "employee_id": "2b779091-1ac6-4ce5-86e7-ab95feaf44bf",
+        "employee_login": "admin",
+        "start_date": "2026-10-09T16:13:22.483875",
+        "end_date": "2026-10-12T16:13:22.483875",
+        "days": 3,
+        "total_cost": 5400.0,
+        "status": "active",
+        "actual_return": null,
+        "created_at": "2026-10-09T16:13:22.483875",
+        "updated_at": "2026-10-10T13:34:47.452875"
+      },
+      {
+        "type": "Rental",
+        "id": "1b3bb8f5-a0eb-4880-87af-10d07eeafe5f",
+        "customer_id": "250c40b6-f10a-4192-ba45-7d94e82c0829",
+        "customer_name": "Сидоров Сидор Сидорович",
+        "car_id": "0f4f1646-3c1e-46d5-94cc-eb9b7bbcc2f8",
+        "car_info": "Hyundai Solaris [А125НО777]",
+        "employee_id": "2b779091-1ac6-4ce5-86e7-ab95feaf44bf",
+        "employee_login": "admin",
+        "start_date": "2026-10-09T16:14:37.383533",
+        "end_date": "2026-10-12T16:14:37.383533",
+        "days": 3,
+        "total_cost": 5100.0,
+        "status": "active",
+        "actual_return": null,
+        "created_at": "2026-10-09T16:14:37.383533",
+        "updated_at": "2026-10-10T13:34:47.452875"
+      },
+      {
+        "type": "Rental",
+        "id": "fb83cfce-1b5a-4fd9-91ca-e1229f310c63",
+        "customer_id": "34fed6ed-b06f-4c38-8ab6-6dd7627e6694",
+        "customer_name": "Иванов Иван Иванович",
+        "car_id": "3394be13-2481-4e9b-b9f3-4c7cf1f674cc",
+        "car_info": "Toyota Camry [А126РС777]",
+        "employee_id": "2b779091-1ac6-4ce5-86e7-ab95feaf44bf",
+        "employee_login": "admin",
+        "start_date": "2026-10-09T16:14:44.457077",
+        "end_date": "2026-10-12T16:14:44.457077",
+        "days": 3,
+        "total_cost": 10500.0,
+        "status": "active",
+        "actual_return": null,
+        "created_at": "2026-10-09T16:14:44.457077",
+        "updated_at": "2026-10-10T13:34:47.452875"
+      }
+    ],
+    "damage_reports": [],
+    "maintenances": []
+  }
+}
